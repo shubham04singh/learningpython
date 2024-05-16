@@ -11,7 +11,7 @@ pipeline {
                 echo 'setting up environment'
                 sh 'pyhton --version'
             }
-        })
+        }
     stage ('test python script')
     {
         steps{
