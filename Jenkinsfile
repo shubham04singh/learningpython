@@ -6,7 +6,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/shubham04singh/learningpython.git'
             }
         }
-        stage ('setup'{
+        stage ('setup'){
             steps{
                 echo 'setting up environment'
                 sh 'pyhton --version'
